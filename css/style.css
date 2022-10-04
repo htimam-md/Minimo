@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #626262;
+    list-style-type: none;
+}
+
+html {
+    /* width: 1350px; */
+}
+
+/* header starts */
+.header {
+    /* border: 1px solid pink; */
+    background-color: #ffffff;
+    padding: 25px 0;
+}
+
+.container {
+    /* border: 1px solid pink; */
+    width: 74.438rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo {
+    width: 11%;
+    float: left;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.menu {
+    width: 681px;
+    float: right;
+    /* border: 1px solid red; */
+}
+
+.menu ul li {
+    /* float: left; */
+    float: left;
+}
+
+.menu ul li a {
+    margin: 0 60px;
+    padding: 1px 2px;
+    display: inline-block;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+}
+
+.menu ul li a:hover {
+    border-top: 1px solid #626262;
+    ;
+    border-bottom: 1px solid #626262;
+    ;
+    color: #626262;
+
+}
+
+.menu ul li:last-child a {
+    margin-right: 0;
+}
+
+/* header end */
+
+/* banner starts */
+
+.banner {}
+
+.b_content {}
+
+.b_content img {
+    width: 100%;
+}
+
+/* banner end */
+
+/* perfect section */
+.perfect {
+    padding: 100px 0 120px;
+    /* border: 1px solid hotpink; */
+}
+
+.container2 {
+    margin: 0 auto;
+    width: 63.438rem;
+    /* border: 1px solid pink; */
+    overflow: hidden;
+}
+
+.p_content {}
+
+.c_tag {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+
+.c_title {
+    margin: 15px 0 25px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.c_text {
+margin: 0;
+}
+.mb-40{
+    margin-bottom: 40px;
+}
+
+/* perfect end */
+
+/* blog starts */
+.blog{
+    padding: 20px 0 120px;
+    /* border: 1px solid hotpink; */
+}
+.b_contents{
+    overflow: hidden;
+}
+.s_blog{
+    margin-top: 80px;
+    width: 48%;
+    /* border: 1px solid red; */
+    float: left;
+}
+.s_blog:nth-child(even){
+    margin-left: 4%;
+}
+.s_img{
+    margin-bottom: 15px;
+}
+.s_img img{
+    width: 100%;
+}
+/* blog end */
+.news{
+    padding: 100px 0 120px;
+    background-color: #f0f0f0;
+}
+.signup{
+    text-align: center;
+}
+.s_h1{
+    margin-top: 0;
+    margin-bottom: 83px;
+    color: #333333;
+}
+.s_form{
+    margin: 0 auto;
+    width: 404px;
+    /* border: 1px solid red; */
+    position: relative;
+}
+.s_form input{
+    width: 361px;
+    height: 45px;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #626262;
+    border: none;
+    border-bottom: 1px solid #626262;
+    background-color: transparent;
+    padding-left: 5px;
+    padding-right: 38px;
+}
+.s_form input:focus{
+    outline: 0;
+}
+.s_form button{
+    position: absolute;
+    right: 0px;
+    top: 17px;
+    background: transparent;
+    border: none
+}
+.s_form button img{
+   width: 100%;
+}
+
+
+/* blog2 start */
+.blog2{}
+.load{
+    text-align: center;
+    margin: 150px 0 50px;
+}
+.load button{
+    width: 160px;
+    height: 60px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #626262;
+    background-color: transparent;
+    border: 1px solid #626262;
+    border-radius: 0;
+    cursor: pointer;
+    transition: .33s;
+}
+.load button:hover{
+    background-color: #626262;
+    color: white;
+    
+}
+/* blog2 end */
+/* footer starts */
+.footer{
+    padding: 39px 0;
+    background-color:#f0f0f0 ;
+}
+.left{
+    float: left;
+}
+.left ul{
+    float: right;
+}
+.left ul li{
+    float: left;
+}
+.left ul li a{
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+    /* line-height: 24px; */
+    padding: 0 16px;
+}
+.left ul li:first-child a{
+   padding-left: 0;
+}
+.right{
+    float: right;
+}
+.right ul{
+    float: right;
+}
+.right ul li{
+    float: left;
+}
+.right ul li a{
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    padding: 0 14px;
+ }
+ .right ul li:first-child a{
+    padding-left: 0;
+ }
+/* footer end */

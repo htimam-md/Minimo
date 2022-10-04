@@ -1,0 +1,83 @@
+/* common start */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+    line-height: 24px;
+}
+
+
+/* header parts */
+
+header {
+    border-bottom: 1px solid;
+    padding: 30px 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+    border: 1px solid red;
+    overflow: hidden;
+}
+
+.logo {
+    margin-top: 10px;
+    width: 10%;
+    border: 1px solid blue;
+    float: left;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.menu {
+    width: 70%;
+    border: 1px solid blue;
+    float: right;
+}
+
+.menu ul li {
+    float: left;
+    list-style-type: none;
+}
+
+.menu ul {
+    float: right;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #626262;
+    padding: 0 60px;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+}
+
+.menu ul li a:hover {
+    border-top: 1px solid #626262;
+    border-bottom: 1px solid #626262;
+}
+
+.menu ul li:last-child a {
+    padding-right: 0;
+}
+
+
+/* header parts end */
+
+
+/* banner start */
+
+.b_banner img {
+    width: 100%;
+}
+
+
+/* banner end */
